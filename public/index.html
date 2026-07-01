@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Product Browser</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <h1>Product Browser</h1>
+
+    <div class="controls">
+
+        <select id="category">
+            <option value="">All Categories</option>
+            <option>Books</option>
+            <option>Electronics</option>
+            <option>Fashion</option>
+            <option>Sports</option>
+            <option>Home</option>
+            <option>Beauty</option>
+            <option>Toys</option>
+            <option>Food</option>
+        </select>
+
+        <button onclick="loadProducts(true)">
+            Apply Filter
+        </button>
+
+    </div>
+
+    <div id="products"></div>
+
+    <button id="nextBtn">
+        Next Page
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
